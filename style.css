@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    cursor:pointer;
+}
+/*for inner color #*/
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background-color:#6C757D;
+}
+.container{
+    /* color:rgb(27, 27, 28); */
+    height:70vh;
+    width:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid grey;
+    background-color: #ADB5BD;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 50px #131212;
+}
+h1{
+    padding:2vh;
+    margin-bottom: 20px;
+    color:#171616;
+    text-shadow:2px 2px 2px  #6e6f6e;
+}
+p{
+    margin: 3px;
+}
+.amount input{
+    padding:6px;
+    width:35vh;
+    border:none;
+    margin:4px;
+    border-radius: 4px;
+    color:black;
+    font-size: large;
+}
+.dropdown{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+button{
+    margin-top:5vh;
+    margin-left:11vh;
+    padding:12px;
+    border-radius: 10px;
+    background-color: #135916;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 2px 2px #043c07;
+}
+i{
+    font-size:xx-large;
+}
+.message{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 4vh;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+select{
+    padding:5px;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    border-radius:3px;
+}
+p{
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
